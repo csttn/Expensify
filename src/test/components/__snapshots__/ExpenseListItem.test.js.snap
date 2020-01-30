@@ -11,9 +11,9 @@ exports[`Renderizando ExpenseLisItem 1`] = `
     </h3>
   </Link>
   <p>
-    195
+    R$  1,95
     -
-    January 4th, 1970
+    4th January, 1970
   </p>
 </div>
 `;

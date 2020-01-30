@@ -1,9 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import moment from "moment";
+import moment from "./moment";
 import numeral from "./numeral";
-
-moment.locale("pt-br");
 
 const ExpenseListItem = ({ id, description, amount, createdAt }) => (
   <div>
