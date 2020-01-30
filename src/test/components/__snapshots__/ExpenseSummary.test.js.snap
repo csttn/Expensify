@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renderizando ExpensesSummary corretamente com 1 expense 1`] = `
+<div>
+  <h1>
+    Visalizando 
+    1
+     
+    despesa
+    , total: 
+    R$ 2,35
+  </h1>
+</div>
+`;
+
+exports[`Renderizando ExpensesSummary corretamente com todos expenses 1`] = `
+<div>
+  <h1>
+    Visalizando 
+    27
+     
+    despesas
+    , total: 
+    R$ 2.356.645,43
+  </h1>
+</div>
+`;
