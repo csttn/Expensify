@@ -15,7 +15,7 @@ const expenses = [
     description: "julia",
     note: "",
     amount: 1345,
-    createdAt: moment(0)
+    createdAt: moment(0).locale("pt-br")
   },
   {
     id: 2,
