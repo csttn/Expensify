@@ -3,11 +3,12 @@
 exports[`Renderizando ExpensesSummary corretamente com 1 expense 1`] = `
 <div>
   <h1>
-    Visalizando 
+    Visualizando 
     1
      
     despesa
-    , total: 
+    , total:
+     
     R$ 2,35
   </h1>
 </div>
@@ -16,11 +17,12 @@ exports[`Renderizando ExpensesSummary corretamente com 1 expense 1`] = `
 exports[`Renderizando ExpensesSummary corretamente com todos expenses 1`] = `
 <div>
   <h1>
-    Visalizando 
+    Visualizando 
     27
      
     despesas
-    , total: 
+    , total:
+     
     R$ 2.356.645,43
   </h1>
 </div>

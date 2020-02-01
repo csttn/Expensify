@@ -7,8 +7,12 @@ test("Configurar valores de filtro padrão", () => {
   expect(state).toEqual({
     text: "",
     sortBy: "date",
-    startDate: moment().startOf("month"),
-    endDate: moment().endOf("month")
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   });
 });
 
@@ -16,8 +20,12 @@ test("Configurar valor de classificação por data", () => {
   const currentState = {
     text: "",
     sortBy: "amount",
-    startDate: moment().startOf("month"),
-    endDate: moment().endOf("month")
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   };
 
   const state = filterReducer(currentState, { type: "SORT_BY_DATE" });
@@ -25,8 +33,12 @@ test("Configurar valor de classificação por data", () => {
   expect(state).toEqual({
     text: "",
     sortBy: "date",
-    startDate: moment().startOf("month"),
-    endDate: moment().endOf("month")
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   });
 });
 
@@ -34,8 +46,12 @@ test("Configurar valor de classificação por quantidade", () => {
   const currentState = {
     text: "",
     sortBy: "date",
-    startDate: moment().startOf("month"),
-    endDate: moment().endOf("month")
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   };
 
   const state = filterReducer(currentState, { type: "SORT_BY_AMOUNT" });
@@ -43,8 +59,12 @@ test("Configurar valor de classificação por quantidade", () => {
   expect(state).toEqual({
     text: "",
     sortBy: "amount",
-    startDate: moment().startOf("month"),
-    endDate: moment().endOf("month")
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   });
 });
 
@@ -52,8 +72,12 @@ test("Configurar valor de filtro por texto", () => {
   const currentState = {
     text: "AAA",
     sortBy: "date",
-    startDate: moment().startOf("month"),
-    endDate: moment().endOf("month")
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   };
 
   const state = filterReducer(currentState, {
@@ -64,8 +88,12 @@ test("Configurar valor de filtro por texto", () => {
   expect(state).toEqual({
     text: "TEXTO DE TESTE",
     sortBy: "date",
-    startDate: moment().startOf("month"),
-    endDate: moment().endOf("month")
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   });
 });
 
@@ -74,7 +102,9 @@ test("Configurar valor de filtro por StartDate", () => {
     text: "",
     sortBy: "date",
     startDate: 0,
-    endDate: moment().endOf("month")
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   };
 
   const state = filterReducer(currentState, {
@@ -86,7 +116,9 @@ test("Configurar valor de filtro por StartDate", () => {
     text: "",
     sortBy: "date",
     startDate: 1000,
-    endDate: moment().endOf("month")
+    endDate: moment()
+      .locale("pt-br")
+      .endOf("mês")
   });
 });
 
@@ -94,7 +126,9 @@ test("Configurar valor de filtro por EndDate", () => {
   const currentState = {
     text: "",
     sortBy: "date",
-    startDate: moment().startOf("month"),
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
     endDate: 1
   };
 
@@ -106,7 +140,9 @@ test("Configurar valor de filtro por EndDate", () => {
   expect(state).toEqual({
     text: "",
     sortBy: "date",
-    startDate: moment().startOf("month"),
+    startDate: moment()
+      .locale("pt-br")
+      .startOf("mês"),
     endDate: 1000
   });
 });
