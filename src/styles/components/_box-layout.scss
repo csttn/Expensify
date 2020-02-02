@@ -1,0 +1,43 @@
+.box-layout {
+  align-items: center;
+  background: url("/assets/bg3.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box-layout__box {
+  background: fade-out($dark, 0.2);
+  border-radius: 0.3rem;
+  padding: $l-size $m-size;
+  text-align: center;
+  width: 25rem;
+}
+
+.box-layout__title {
+  margin: 0 0 $m-size;
+  line-height: 1;
+  color: $rose;
+}
+
+.box-layout__subtitle {
+    color: $gray;
+}
+
+.box-layout__button {
+    font-size: 1.8rem; 
+    background-color: $blue;
+    color: $gray;
+    border-radius: 0.2rem;
+    border: none;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.box-layout__button_span {
+    color: $orange;
+    font-weight: 900;
+    font-size: 2rem;
+}

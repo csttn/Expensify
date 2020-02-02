@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  > * {
+    margin-bottom: $m-size;
+  }
+}
+
+.form__error {
+  margin: 0 0 $m-size 0;
+  font-style: italic;
+}
+
+.button--remove {
+  font-size: 1.8rem;
+  color: $gray;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 1rem;
+  font-weight: 500;
+  background-color: $rose;
+}

@@ -1,0 +1,34 @@
+.header {
+  background-color: $dark;
+}
+
+.header__content {
+  align-items: center;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.header-title {
+  color: $rose;
+  margin: 0;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.header-button {
+  background-color: $dark;
+  color: $rose;
+  height: 4.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: 400;
+}
+
+.header-button:hover {
+  background-color: $rose;
+  color: $gray;
+}
