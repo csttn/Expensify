@@ -1,6 +1,20 @@
 # Controle de Despesas expensify
 Esse projeto é o resultado de um curso com React e muitas outas bibliotecas.
 
+## Tecnologias utilizadas
+
+* **React**
+* **Redux**
+* **React-Router**
+* **Webpack**
+* **Babel**
+* **Testing with Jest**
+* **Enzyme**
+* **App Debugging**
+* **App Deployment**
+* **Firebase**
+
+
 
 
 ## Atenção:
