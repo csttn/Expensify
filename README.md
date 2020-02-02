@@ -14,8 +14,8 @@ Esse projeto é o resultado de um curso com React e muitas outas bibliotecas.
 * **App Deployment**
 * **Firebase**
 * **Sass**
-* **Express**
-E muitas outras...
+* **Express,**
+e muitas outras...
 
 
 
