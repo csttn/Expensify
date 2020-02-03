@@ -1,17 +1,15 @@
 # Controle de Despesas expensify
-Esse projeto é o resultado de um curso com React e muitas outas bibliotecas.
+
+O porpósito do sistema é gerenciar o seu controle de despesas.
 
 ## Tecnologias utilizadas
 
 * **React**
 * **Redux**
-* **React-Router**
+* **Css - Css Flexbox**
 * **Webpack**
-* **Babel**
 * **Testing with Jest**
 * **Enzyme**
-* **App Debugging**
-* **App Deployment**
 * **Firebase**
 * **Sass**
 * **Express,**
@@ -35,7 +33,7 @@ Comando para executar em modo de desenvolvimento
 npm run dev-server
 ```
 
-Comando para executar Build para produção
+Comando para executar Build de produção
 ```
 npm run build:prod
 ```
