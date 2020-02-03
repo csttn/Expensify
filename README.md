@@ -15,6 +15,9 @@ O porpósito do sistema é gerenciar o seu controle de despesas.
 * **Express,**
 e muitas outras...
 
+## Projeto publico em:
+
+* [Heroku](https://expensify-csttn.herokuapp.com/) 
 
 
 ## Atenção:
@@ -39,8 +42,5 @@ npm run build:prod
 ```
 demais scripts serão encontrados no arquivo package.json
 
-## Projeto publico em:
-
-* [Heroku](https://expensify-csttn.herokuapp.com/) 
 
 
