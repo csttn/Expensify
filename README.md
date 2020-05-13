@@ -1,6 +1,6 @@
 # Controle de Despesas expensify
 
-O porpósito do sistema é gerenciar o seu controle de despesas.
+O porpósito do sistema é gerenciar despesas.
 
 ## Tecnologias utilizadas
 
