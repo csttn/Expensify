@@ -8,7 +8,7 @@ O porpósito do sistema é gerenciar o seu controle de despesas.
 * **Redux**
 * **Css - Css Flexbox**
 * **Webpack**
-* **Testing with Jest**
+* **Testes com Jest**
 * **Enzyme**
 * **Firebase**
 * **Sass**
